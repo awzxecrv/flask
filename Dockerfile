@@ -7,5 +7,4 @@ RUN pip install flask
 ENV PYTHONUNBUFFERED 1
 
 EXPOSE 8001
-
 CMD python3 ./main.py
